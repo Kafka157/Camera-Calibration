@@ -19,6 +19,7 @@ objp = objp * 15.09            # Set your own data : Here is the length of a lat
 
 obj_points = []  # save 3 dimension point
 img_points = []  # save 2 dimension point
+i = 0
 
 def save_calibration_to_yaml(file_path, cameraMatrix_l, distCoeffs_l):
     data = {
